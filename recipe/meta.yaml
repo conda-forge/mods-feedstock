@@ -1,5 +1,5 @@
 {% set name = "mods" %}
-{% set version = "1.7.0" %}
+{% set version = "1.8.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/charmbracelet/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 44e15c13d70d74369467df4d18b0a5ad9d977b344e76a39898002a04712271ca
+  sha256: e16268ce55b9c90395116c2c8ce4d820d18d7f0b05430d64dc69686410776231
 
 build:
   number: 0
@@ -29,8 +29,7 @@ about:
     - LICENSE
     - license-files/
   summary: >
-    A hardware-accelerated GPU terminal emulator focusing to run in desktops and
-    browsers
+    A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers
 
 extra:
   recipe-maintainers:
