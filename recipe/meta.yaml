@@ -10,7 +10,7 @@ source:
   sha256: e16268ce55b9c90395116c2c8ce4d820d18d7f0b05430d64dc69686410776231
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -28,8 +28,9 @@ about:
   license_file:
     - LICENSE
     - license-files/
-  summary: >
-    A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers
+  summary: AI on the command line
+  description: |
+    Large Language Models (LLM) based AI is useful to ingest command output and format results in Markdown, JSON, and other text based formats. Mods is a tool to add a sprinkle of AI in your command line and make your pipelines artificially intelligent.
 
 extra:
   recipe-maintainers:
